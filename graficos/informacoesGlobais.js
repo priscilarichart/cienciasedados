@@ -1,4 +1,4 @@
-const url = 'https://raw.githubusercontent.com/pririchart/api/main/dados-globais.json'
+const url = 'https://raw.githubusercontent.com/priscilarichart/api/main/dados-globais.json'
 async function vizualizarInformacoesGlobais() {
     const res = await fetch(url)
     const dados = await res.json()
